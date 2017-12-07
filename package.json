@@ -18,8 +18,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "rm -rf .cache/* && gatsby build --prefix-paths",
-    "develop": "rm -rf .cache/* && gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "jest src/__tests__"
   },
