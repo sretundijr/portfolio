@@ -1,0 +1,13 @@
+
+.child-container {
+  position: absolute;
+  z-index: 0;
+  width: 100vw;
+  padding: 15vh 1.0875rem 1.45rem;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .child-container {
+    margin-top: 20vh;
+  }
+}
