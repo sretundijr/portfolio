@@ -7,6 +7,7 @@ const Card = (props) => {
   console.log(props);
   return (
     <div className="card-container">
+      <img src={props.project.image} alt="project images" />
       <p className="card-title">Title:</p>
       <p>{props.project.title}</p>
       <p className="card-title">Description:</p>

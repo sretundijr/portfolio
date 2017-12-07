@@ -3,6 +3,7 @@ import React from 'react';
 // css
 import './about-me.css';
 
+
 const AboutMe = () => {
   return (
     <div>
