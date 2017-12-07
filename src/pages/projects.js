@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card from '../components/card';
 
-import aboutMe from '../aboutMe';
+import aboutMe from '../personal-info';
 
 import './projects.css';
 

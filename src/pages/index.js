@@ -1,6 +1,6 @@
 import React from 'react';
 
-import aboutMe from '../aboutMe';
+import aboutMe from '../personal-info';
 
 // css
 import './index.css';
