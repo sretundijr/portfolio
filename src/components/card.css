@@ -1,0 +1,30 @@
+
+.card-container {
+  width: 400px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+}
+
+.card-title {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.project-link {
+  color: black;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .card-container {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-container {
+    margin-bottom: 40px;
+  }
+}
