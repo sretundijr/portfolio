@@ -3,11 +3,13 @@ import React from 'react';
 // css
 import './about-me.css';
 
+import personalInfo from '../personal-info';
 
 const AboutMe = () => {
   return (
     <div>
-      <h1 className="about-me">About Me</h1>
+      <h2 className="about-page-title">The Journey So Far</h2>
+      <p className="about-page-content">{personalInfo().bio}</p>
     </div>
   );
 };
