@@ -1,9 +1,30 @@
 
+.about-page-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
 .about-page-title {
   text-align: center;
 }
 
-.about-page-content {
-  margin-left: 20px;
-  margin-right: 20px;
+.about-image-1 {
+  margin: 0 auto;
 }
+
+.about-page-content {
+  margin: 0 auto;
+  width: 650px;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  
+}
+
+@media screen and (max-width: 450px) {
+  
+}
+
+
+
