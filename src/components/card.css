@@ -5,6 +5,7 @@
   border-radius: 8px;
   padding: 20px;
   background-color: white;
+  margin-bottom: 50px;
 }
 
 .card-title {
@@ -18,12 +19,12 @@
 
 @media screen and (max-width: 800px) and (orientation: landscape) {
   .card-container {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .card-container {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
