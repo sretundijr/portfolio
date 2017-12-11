@@ -7,7 +7,6 @@ import TechList from './tech-list';
 import './card.css';
 
 const Card = (props) => {
-  console.log(props);
   return (
     <div
       role="link"
@@ -19,7 +18,6 @@ const Card = (props) => {
       <h3>{props.project.title}</h3>
       <img src={props.project.image} alt="project images" />
       <p>{props.project.description}</p>
-      {/* <img src={props.project.technologies[2].image} alt="technology logo" /> */}
       <TechList list={props.project.technologies} />
     </div>
   );

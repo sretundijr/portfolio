@@ -6,7 +6,7 @@ import './tech-logo.css';
 const TechLogo = (props) => {
   return (
     <div>
-      <img className="tech-logo" src={props.src} alt="Tech logo" />
+      <img className="tech-logo" src={props.src} alt={`${props.alt} logo`} />
     </div>
   );
 };
