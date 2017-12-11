@@ -3,6 +3,21 @@ import roommateImage from './images/roommate-tracker.png';
 import findNewMusicImage from './images/find-new-music.png';
 import technicianAssistImage from './images/technician-assist.png';
 import nodeLogo from './images/node-0fc14864.jpg';
+import nextJs from './images/next-js-30.png';
+import es6Logo from './images/ES6LOGO.svg';
+import bootstrapLogo from './images/bootstrap-logo.png';
+import herokuLogo from './images/heroku-logo.png';
+import reactLogo from './images/react-logo.png';
+import mongoLogo from './images/mongo-logo.jpg';
+import auth0Logo from './images/auth0-logo.png';
+import expressLogo from './images/express-js.png';
+import webpackLogo from './images/webpack-logo.png';
+import babelLogo from './images/babel-logo.png';
+import jsLogo from './images/js-logo.jpg';
+import jQueryLogo from './images/jquery-logo.png';
+import ajaxLogo from './images/ajax-logo.jpg';
+import html5Logo from './images/HTML5_Logo.png';
+import css3Logo from './images/css3-logo.png';
 
 const aboutMeStuffConvertToJson = () => {
   return {
@@ -51,11 +66,11 @@ const aboutMeStuffConvertToJson = () => {
         technologies: [
           {
             type: 'Next.js',
-            image: '',
+            image: nextJs,
           },
           {
             type: 'Es6',
-            image: '',
+            image: es6Logo,
           },
           {
             type: 'Node js',
@@ -63,7 +78,7 @@ const aboutMeStuffConvertToJson = () => {
           },
           {
             type: 'React',
-            image: '',
+            image: reactLogo,
           },
           {
             type: 'Netlify',
@@ -71,7 +86,7 @@ const aboutMeStuffConvertToJson = () => {
           },
           {
             type: 'Heroku',
-            image: '',
+            image: herokuLogo,
           },
           {
             type: 'Mailgun',
@@ -79,11 +94,11 @@ const aboutMeStuffConvertToJson = () => {
           },
           {
             type: 'Auth0',
-            image: '',
+            image: auth0Logo,
           },
           {
             type: 'Mongo Db',
-            image: '',
+            image: mongoLogo,
           },
           {
             type: 'Mongoose',
@@ -91,7 +106,7 @@ const aboutMeStuffConvertToJson = () => {
           },
           {
             type: 'Express',
-            image: '',
+            image: expressLogo,
           },
         ],
       },
@@ -104,11 +119,11 @@ const aboutMeStuffConvertToJson = () => {
         technologies: [
           {
             type: 'Es6',
-            image: '',
+            image: es6Logo,
           },
           {
             type: 'Boostrap 3',
-            image: '',
+            image: bootstrapLogo,
           },
           {
             type: 'Pug/Jade',
@@ -120,11 +135,11 @@ const aboutMeStuffConvertToJson = () => {
           },
           {
             type: 'Heroku',
-            image: '',
+            image: herokuLogo,
           },
           {
             type: 'Mongo Db',
-            image: '',
+            image: mongoLogo,
           },
           {
             type: 'Mongoose',
@@ -132,15 +147,15 @@ const aboutMeStuffConvertToJson = () => {
           },
           {
             type: 'Express',
-            image: '',
+            image: expressLogo,
           },
           {
             type: 'Webpack',
-            image: '',
+            image: webpackLogo,
           },
           {
             type: 'Babel',
-            image: '',
+            image: babelLogo,
           },
         ],
       },
@@ -153,23 +168,23 @@ const aboutMeStuffConvertToJson = () => {
         technologies: [
           {
             type: 'JavaScript',
-            image: '',
+            image: jsLogo,
           },
           {
             type: 'jQuery',
-            image: '',
+            image: jQueryLogo,
           },
           {
             type: 'Ajax',
-            image: '',
+            image: ajaxLogo,
           },
           {
             type: 'Html',
-            image: '',
+            image: html5Logo,
           },
           {
             type: 'CSS',
-            image: '',
+            image: css3Logo,
           },
         ],
       },

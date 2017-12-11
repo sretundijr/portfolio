@@ -1,0 +1,12 @@
+
+.tech-logo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tech-logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { navigateTo } from 'gatsby-link';
 
-import nodeLogo from '../images/node-0fc14864.jpg';
+import TechList from './tech-list';
 
 // css
 import './card.css';
@@ -19,7 +19,8 @@ const Card = (props) => {
       <h3>{props.project.title}</h3>
       <img src={props.project.image} alt="project images" />
       <p>{props.project.description}</p>
-      <img src={props.project.technologies[2].image} alt="technology logo" />
+      {/* <img src={props.project.technologies[2].image} alt="technology logo" /> */}
+      <TechList list={props.project.technologies} />
     </div>
   );
 };
