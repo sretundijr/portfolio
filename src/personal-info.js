@@ -1,7 +1,8 @@
 
-import roommateImage from './roommate-tracker.png';
-import findNewMusicImage from './find-new-music.png';
-import technicianAssistImage from './technician-assist.png';
+import roommateImage from './images/roommate-tracker.png';
+import findNewMusicImage from './images/find-new-music.png';
+import technicianAssistImage from './images/technician-assist.png';
+import nodeLogo from './images/node-0fc14864.jpg';
 
 const aboutMeStuffConvertToJson = () => {
   return {
@@ -48,17 +49,50 @@ const aboutMeStuffConvertToJson = () => {
         gitHubLink: 'https://github.com/sretundijr/final-capstone',
         image: technicianAssistImage,
         technologies: [
-          'Next.js',
-          'Es6',
-          'Node.js',
-          'React',
-          'Netlify',
-          'Heroku',
-          'Mailgun',
-          'Auth0',
-          'Mongo Db',
-          'Mongoose',
-          'Express',
+          {
+            type: 'Next.js',
+            image: '',
+          },
+          {
+            type: 'Es6',
+            image: '',
+          },
+          {
+            type: 'Node js',
+            image: nodeLogo,
+          },
+          {
+            type: 'React',
+            image: '',
+          },
+          {
+            type: 'Netlify',
+            image: '',
+          },
+          {
+            type: 'Heroku',
+            image: '',
+          },
+          {
+            type: 'Mailgun',
+            image: '',
+          },
+          {
+            type: 'Auth0',
+            image: '',
+          },
+          {
+            type: 'Mongo Db',
+            image: '',
+          },
+          {
+            type: 'Mongoose',
+            image: '',
+          },
+          {
+            type: 'Express',
+            image: '',
+          },
         ],
       },
       {
@@ -68,16 +102,46 @@ const aboutMeStuffConvertToJson = () => {
         gitHubLink: 'https://github.com/sretundijr/second-capstone-bill-tracker',
         image: roommateImage,
         technologies: [
-          'Es6',
-          'Bootstrap 3',
-          'Pug/Jade',
-          'Node.js',
-          'Heroku',
-          'Mongo Db',
-          'Mongoose',
-          'Express',
-          'Webpack',
-          'Babel',
+          {
+            type: 'Es6',
+            image: '',
+          },
+          {
+            type: 'Boostrap 3',
+            image: '',
+          },
+          {
+            type: 'Pug/Jade',
+            image: '',
+          },
+          {
+            type: 'Node js',
+            image: nodeLogo,
+          },
+          {
+            type: 'Heroku',
+            image: '',
+          },
+          {
+            type: 'Mongo Db',
+            image: '',
+          },
+          {
+            type: 'Mongoose',
+            image: '',
+          },
+          {
+            type: 'Express',
+            image: '',
+          },
+          {
+            type: 'Webpack',
+            image: '',
+          },
+          {
+            type: 'Babel',
+            image: '',
+          },
         ],
       },
       {
@@ -87,11 +151,26 @@ const aboutMeStuffConvertToJson = () => {
         gitHubLink: 'https://github.com/sretundijr/first-capstone',
         image: findNewMusicImage,
         technologies: [
-          'JavaScript',
-          'jQuery',
-          'Ajax',
-          'Html',
-          'Css',
+          {
+            type: 'JavaScript',
+            image: '',
+          },
+          {
+            type: 'jQuery',
+            image: '',
+          },
+          {
+            type: 'Ajax',
+            image: '',
+          },
+          {
+            type: 'Html',
+            image: '',
+          },
+          {
+            type: 'CSS',
+            image: '',
+          },
         ],
       },
     ],

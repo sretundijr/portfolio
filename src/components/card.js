@@ -1,34 +1,25 @@
 import React from 'react';
+import { navigateTo } from 'gatsby-link';
+
+import nodeLogo from '../images/node-0fc14864.jpg';
 
 // css
 import './card.css';
 
 const Card = (props) => {
+  console.log(props);
   return (
-    <div className="card-container">
+    <div
+      role="link"
+      tabIndex="0"
+      onClick={() => navigateTo('/project')}
+      onKeyDown={() => navigateTo('/project')}
+      className="card-container"
+    >
+      <h3>{props.project.title}</h3>
       <img src={props.project.image} alt="project images" />
-      <p className="card-title">Title:</p>
-      <p>{props.project.title}</p>
-      <p className="card-title">Description:</p>
       <p>{props.project.description}</p>
-      <p className="card-title">URL:</p>
-      <p>
-        <a
-          target="_blank"
-          className="project-link"
-          href={`${props.project.appLink}`}
-        >{props.project.appLink}
-        </a>
-      </p>
-      <p className="card-title">GitHub:</p>
-      <p>
-        <a
-          target="_blank"
-          className="project-link"
-          href={`${props.project.gitHubLink}`}
-        >{props.project.gitHubLink}
-        </a>
-      </p>
+      <img src={props.project.technologies[2].image} alt="technology logo" />
     </div>
   );
 };

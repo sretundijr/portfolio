@@ -8,6 +8,10 @@
   margin-bottom: 50px;
 }
 
+.card-container:hover {
+  border: 3px solid black;
+}
+
 .card-title {
   margin-bottom: 0;
   font-weight: bold;
